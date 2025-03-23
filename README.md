@@ -18,14 +18,42 @@ This project focuses on penetration testing methodologies to identify security v
 - Provides security recommendations & solutions
 - Demonstrates ethical hacking techniques for learning purposes
 
-## 📂 Project Structure
-```
-├── Reports/               # Security assessment reports
-├── Exploits/              # Sample exploits for testing vulnerabilities
-├── Mitigation/            # Security fixes & best practices
-├── Tools/                 # Security testing tools & scripts
-└── README.md              # Project documentation
-```
+
+## ▶️ How to Run the Project
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Darshanas17/Penetration-Testing-Secured-Web-Application.git
+   cd Penetration-Testing-Secured-Web-Application
+   ```
+
+2. **Set Up Virtual Environment:**
+   ```bash
+   python -m venv djangoenv
+   source djangoenv/bin/activate  # For Linux/macOS
+   djangoenv\Scripts\activate    # For Windows
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Apply Migrations:**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Run the Development Server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+6. **Access the Application:**
+   Open your browser and go to:  
+   ```
+   http://127.0.0.1:8000/
+   ```
 
 ## ⚠️ Disclaimer
 This project is intended for educational and ethical security testing purposes only. Unauthorized testing on live systems without permission is illegal. Always use penetration testing responsibly.
